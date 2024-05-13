@@ -42,7 +42,7 @@ const contactMessage = document.getElementById('contact-message')
 const sendEmail = (e) =>{
     e.preventDefault()
 
-    emailjs.sendForm('service_9n3g0xo', 'template_dc2kbnh', '#contact-form', 'v9Hvfa2mEpIN2ECz-')
+    emailjs.sendForm('service_6p4i536', 'template_4s8clpc', '#contact-form', 'v9Hvfa2mEpIN2ECz-')
     .then(() =>{
         // Mostrar mensagem enviada
         contactMessage.textContent = 'Mensagem Enviada ✅'

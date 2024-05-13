@@ -63,6 +63,7 @@ define( 'DB_CHARSET', getenv_docker('WORDPRESS_DB_CHARSET', 'utf8') );
 
 /** The database collate type. Don't change this if in doubt. */
 define( 'DB_COLLATE', getenv_docker('WORDPRESS_DB_COLLATE', '') );
+define('FS_METHOD','direct');
 
 /**#@+
  * Authentication unique keys and salts.
@@ -130,4 +131,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Sets up WordPress vars and included files. */
+define( 'UPLOADS', 'wp-content/upgrade' );
 require_once ABSPATH . 'wp-settings.php';

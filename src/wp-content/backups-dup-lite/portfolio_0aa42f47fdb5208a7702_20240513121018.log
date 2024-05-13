@@ -1,0 +1,77 @@
+********************************************************************************
+DUPLICATOR-LITE PACKAGE-LOG: May 13, 2024 12:10 pm
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	1.5.9
+WORDPRESS:	6.4.3
+PHP INFO:	8.2.17 | SAPI: apache2handler
+SERVER:		Apache/2.4.57 (Debian) 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 4294967296 (128M default) 
+MEMORY STACK: 12MB
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP(query limit - 100)
+MYSQLTIMEOUT: 5000
+MYSQLDUMP:    Not Supported
+TABLES: total:13 | filtered:0 | create:13
+FILTERED: []
+SQL CREATED: portfolio_0aa42f47fdb5208a7702_20240513121018_database.sql
+SQL FILE SIZE: 1.14MB (1193180)
+SQL FILE TIME: 2024-05-13 12:10:29
+SQL RUNTIME: 0.04 sec.
+
+********************************************************************************
+ARCHIVE (ZIP):
+********************************************************************************
+ARCHIVE DIR:  /var/www/html
+ARCHIVE FILE: portfolio_0aa42f47fdb5208a7702_20240513121018_archive.zip
+FILTERS: *OFF*
+DIRS:
+	not set
+FILES:
+	not set
+EXTS:  not set
+----------------------------------------
+COMPRESSING
+SIZE:	88.88MB
+STATS:	Dirs 554 | Files 4,188
+SQL ADDED: portfolio_0aa42f47fdb5208a7702_20240513121018_database.sql
+ZipArchive Object
+(
+    [lastId] => 4741
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4742
+    [filename] => /var/www/html/wp-content/backups-dup-lite/tmp/portfolio_0aa42f47fdb5208a7702_20240513121018_archive.zip
+    [comment] => 
+)
+
+FILE ADDED TO ZIP: 4741
+[PHP ERR][NOTICE] MSG:ob_flush(): Failed to flush buffer. No buffer to flush [CODE:8|FILE:/var/www/html/wp-content/plugins/duplicator/classes/utilities/class.u.php|LINE:173]
+do_action('wp_ajax_duplicator_package_build'), WP_Hook->do_action, WP_Hook->apply_filters, duplicator_package_build, DUP_Package->runZipBuild, DUP_Archive->build, DUP_Zip::create, DUP_Util::fcgiFlush, ob_flush, DUP_Handler::error, DUP_Handler::getMessage
+COMPRESSION RESULT: '1'
+COMPRESSED SIZE: 26.48MB
+ARCHIVE RUNTIME: 4.69 sec.
+MEMORY STACK: 14MB
+building installer
+TESTE DE CONSISTÊNCIA DE ARQUIVO: APROVADO
+
+********************************************************************************
+INTEGRITY CHECKS:
+********************************************************************************
+SQL FILE: 1.14MB
+INSTALLER FILE: 73.46KB
+ARCHIVE FILE: 28.32MB 
+CONTAGEM ESPERADA DE ARQUIVOS/DIRETÓRIOS: 4,742
+CONTAGEM REAL DE ARQUIVOS/DIRETÓRIOS: 4,741
+TESTE DE CONSISTÊNCIA DE ARQUIVO: Aprovado
+
+********************************************************************************
+RECORD ID:[1]
+TOTAL PROCESS RUNTIME: 5.12 sec.
+PEAK PHP MEMORY USED: 18MB
+DONE PROCESSING => portfolio May 13, 2024 12:10 pm
+
